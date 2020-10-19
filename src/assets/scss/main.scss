@@ -1,0 +1,17 @@
+@import 'utils/mixins.scss';
+@import './slider.scss';
+
+
+body {
+    margin:0;
+}
+#root {
+    @include size(100%, 100vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+
+
